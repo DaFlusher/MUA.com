@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <!--Setting up meta data and Open Graph Protocol-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="MakeupAfro">
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="" >
+    <meta property="og:image" content="" >
+    <meta property="og:description" content="The Homepage of the MakeupAfro website, the home of black glam">
+
+    <!--Loading Bootstrap and adding a CSS file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Styles/styles.css">
+
+    <title>MakeupAfro</title>
+</head>
+<body>
+    <div class="container-fluid m-0 p-0">
+        <header>
+            <nav class="d-flex justify-content-between  mx-3 p-3 pb-2">
+               <div class="offcanvas offcanvas-start" id="demo">
+                    <div class="offcanvas-header">
+                        <img src="Images/logo.png" class="offcanvas-title"><span>MakeupAfro</span>
+                        <button class="btn-close text-reset" data-bs-dismiss="offcanvas" ></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <a href="#" class="text-decoration-none text-uppercase ">Makeup Tutorials</a>
+                        <a href="#" class="text-decoration-none text-uppercase">Product Reviews</a>
+                        <a href="#" class="text-decoration-none text-uppercase">Newsletter</a>
+                        <a href="#" class="text-decoration-none text-uppercase">About us</a>
+                        <a href="#" class="text-decoration-none text-uppercase">Follow us</a>
+                    
+                    </div>
+                </div>
+                <button class="btn open" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">&#9776;</button>
+
+                <div class="other-nav d-flex justify-content-between ">
+                    
+                    
+                    <div class="search position-relative ">
+                        <img src="Images/search_FILL0_wght400_GRAD0_opsz24.png" alt="search icon" class="">
+                        <input type="text" placeholder="Type Here..." class="ps-5 pe-2 py-2 rounded">
+                        <button class="search-btn rounded px-2 text-light" type="button">Search</button>
+                    </div>
+                   
+                </div>
+                
+            </nav>
+        </header>
+    
+        <main>
+            <section class="hero position-relative">
+                <img src="Images/Hero Image.jpg" alt="A bride" class="hero-img opacity-50" width="100%">
+
+                <div class="text position-absolute top-50 start-50 translate-middle justify-content-center d-flex flex-column justify-content-center">
+                    <h2 class="h2">Know Your Makeup Level</h2>
+
+                    <button class="btn quiz text-light">Take a Quiz</button>
+                </div>
+               
+                
+            </section>
+
+            <section class="articles ms-auto me-auto">
+
+                <div class="row">
+                    
+                    <article class="card col-lg-3 mx-3">
+                        <img src="Images/Nude Look.jpg" alt="a black girl on matte makeup with a pink lipgloss">
+                        <div class="card-body">
+                            <p class="lead card-text text-center text-uppercase">Face</p>
+                            <h3 class="card-title">
+                                Best Matte Looks for this Summer
+                            </h3>
+                            <p class="card-text text-center" style="font-size: 0.75rem;">2hours ago</p>
+                        </div>
+                    </article>
+
+                    <article class="card col-lg-3">
+    
+                        <img src="Images/Brdial Look.jpg" alt="a black girl on matte makeup with a pink lipgloss">
+                        <div class="card-body">
+                            <p class="lead card-text text-center text-uppercase">Face</p>
+                            <h3 class="card-title">
+                                Best Matte Looks for this Summer
+                            </h3>
+                            <p class="card-text text-center" style="font-size: 0.75rem;">2hours ago</p>
+                        </div>
+                    </article>
+
+                    
+                    <article class="card col-lg-3 mx-3">
+                        <img src="Images/Nude Look.jpg" alt="a black girl on matte makeup with a pink lipgloss">
+                        <div class="card-body">
+                            <p class="lead card-text text-center text-uppercase">Face</p>
+                            <h3 class="card-title">
+                                Best Matte Looks for this Summer
+                            </h3>
+                            <p class="card-text text-center" style="font-size: 0.75rem;">2hours ago</p>
+                        </div>
+                    </article>
+
+                </div>
+                
+            </section>
+        </main>
+    
+        <Footer></Footer>
+    </div>
+ 
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
